@@ -1,0 +1,25 @@
+Ejercicio 1. Realiza las siguientes tareas:
+	➢ Escribe el comando necesario para mostrar la lista de todas las variables de entorno.
+	printenv
+	➢ Muestra la lista de variables de entorno exportadas.
+	printenv
+	➢ Muestra el valor de las variables de entorno PATH y HOME
+	echo $PATH && $HOME
+Ejercicio 2. Realiza las siguientes tareas:
+	➢ Crea un directorio bin en el directorio de inicio de usuario.
+	mkdir $HOME/bin
+	➢ Crea un script en bin que muestre el nombre de usuario junto a su directorio de trabajo.
+	➢ Sitúate en el directorio de inicio y prueba a ejecutar el script utilizando únicamente el nombre.
+	➢ Añade del directorio bin a la variable PATH.
+	export PATH=$PATH:/home/usuario/bin
+	➢ Ejecuta el script desde el directorio de inicio invocándolo únicamente con su nombre.
+	➢ Haz que la configuración sea permanente.
+Ejercicio 3. Realiza las siguientes tareas.
+	➢ Escribe un comando que muestre los alias del shell actual.
+	alias
+	➢ Crea un alias p que corresponda al comando ps -ef | more.
+	alias p='ps -ef | more'
+	➢ Prueba el alias.
+	➢ Borra el alias.
+	unalias p
+	➢ Haz que el alias sea permanente.

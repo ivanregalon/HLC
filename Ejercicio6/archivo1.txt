@@ -1,0 +1,1 @@
+chmod: no se puede acceder a 'fic_noexiste': No existe el archivo o el directorio

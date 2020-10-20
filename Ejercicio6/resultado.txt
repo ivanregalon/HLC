@@ -1,0 +1,8 @@
+mar 13 oct 2020 12:47:06 CEST
+usuario  :0           2020-10-13 11:54 (:0)
+archivo1.txt
+chmod.txt
+errorchmod.txt
+fic_existe
+resu
+resultado.txt
